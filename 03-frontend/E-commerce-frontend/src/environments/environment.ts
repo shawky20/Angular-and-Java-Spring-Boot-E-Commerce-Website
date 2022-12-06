@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  backendUrl: "http://localhost:8080/api/products",
+  backendUrl: "http://localhost:8080/api/products?size=100", // by defaults spring return 20 item but here we tell him to return 100 item
 };
 
 /*
