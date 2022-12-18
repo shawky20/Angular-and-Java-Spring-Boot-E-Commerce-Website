@@ -2,6 +2,7 @@ import { StringMap } from "@angular/compiler/src/compiler_facade_interface";
 
 export class Product {
   constructor(
+    private id: number,
     private sku: string,
     private name: string,
     private description: string,
